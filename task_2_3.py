@@ -29,5 +29,5 @@ for indx, elem in enumerate(str_list[:]):
         else:
             result_str = f'{result_str}{elem} '
     except IndexError:
-        continue
+        result_str = f'{result_str}{elem}'
 print(result_str)
